@@ -89,6 +89,8 @@ Arya Multipurpose includes support for Infinite Scroll in Jetpack.
 - Added wp_body_open function
 - Removed contact form 7 recommendation
 - Added recommendation for Contact Form by WPForms
+- Updated language file
+- Changed site title markup to span
 
 = 1.0.1 - March 14, 2019 =
 

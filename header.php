@@ -58,9 +58,9 @@ if( class_exists( 'wp_body_open' ) ) {
 	                        	the_custom_logo();
 	                        else :
 	                        	?>
-	                        	<h1 class="site-title">
+	                        	<span class="site-title">
 	                        		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-	                        	</h1>
+	                        	</span>
 	                        	<?php
 	                        	$arya_multipurpose_description = get_bloginfo( 'description', 'display' );
 								if ( $arya_multipurpose_description || is_customize_preview() ) :
