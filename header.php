@@ -21,6 +21,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php
+if( class_exists( 'wp_body_open' ) ) { 
+    wp_body_open(); 
+}
+?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'arya-multipurpose' ); ?></a>
 
