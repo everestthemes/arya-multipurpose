@@ -90,6 +90,8 @@ if ( ! function_exists( 'arya_multipurpose_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+
+		remove_theme_support( 'widgets-block-editor' );
 	}
 endif;
 add_action( 'after_setup_theme', 'arya_multipurpose_setup' );
