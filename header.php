@@ -65,7 +65,7 @@ if( class_exists( 'wp_body_open' ) ) {
 	                        	$arya_multipurpose_description = get_bloginfo( 'description', 'display' );
 								if ( $arya_multipurpose_description || is_customize_preview() ) :
 									?>
-									<p class="site-description"><?php echo $arya_multipurpose_description; /* WPCS: xss ok. */ ?></p>
+									<p class="site-description"><?php echo wp_kses_post($arya_multipurpose_description); /* WPCS: xss ok. */ ?></p>
 									<?php 
 								endif; 
 	                        endif;
