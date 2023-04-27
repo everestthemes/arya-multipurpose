@@ -34,7 +34,7 @@ get_header();
             					arya_multipurpose_woocommerce_sidebar();
             				}
 
-            				 if( ! ( is_woocommerce() || is_cart() || is_checkout() || is_account_page() ) && is_active_sidebar( 'arya-multipurpose-sidebar' ) && $sidebar_position === 'left' ) {
+            				if( ! ( is_woocommerce() || is_cart() || is_checkout() || is_account_page() ) && is_active_sidebar( 'arya-multipurpose-sidebar' ) && $sidebar_position === 'left' ) {
 
             				 	get_sidebar();
             				 }
